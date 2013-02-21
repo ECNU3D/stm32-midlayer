@@ -31,7 +31,7 @@
 ### ADS-LD Output File: '.\Obj\STM3210C-EVAL.axf'
 ### ADS-LD Command File: '.\Obj\STM3210C-EVAL.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\Obj\STM3210C-EVAL.lnp', Handle=0x00000510
+### Creating CmdFile '.\Obj\STM3210C-EVAL.lnp', Handle=0x000004E8
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\Obj\STM3210C-EVAL.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

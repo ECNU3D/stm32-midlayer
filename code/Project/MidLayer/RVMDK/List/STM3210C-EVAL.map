@@ -1598,19 +1598,19 @@ Memory Map of the image
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x08000000   0x00000130   Data   RO         2561    RESET               startup_stm32f10x_hd.o
-    0x08000130   0x00000000   Code   RO         2566  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000130   0x00000004   Code   RO         2833    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x08000134   0x00000004   Code   RO         2836    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000138   0x00000000   Code   RO         2838    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000138   0x00000000   Code   RO         2840    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000138   0x00000008   Code   RO         2841    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000140   0x00000000   Code   RO         2843    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000140   0x00000000   Code   RO         2845    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000140   0x00000004   Code   RO         2834    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
-    0x08000144   0x00000030   Code   RO         2562    .text               startup_stm32f10x_hd.o
-    0x08000174   0x00000024   Code   RO         2569    .text               mc_w.l(memcpya.o)
-    0x08000198   0x00000024   Code   RO         2862    .text               mc_w.l(init.o)
+    0x08000000   0x00000130   Data   RO         2592    RESET               startup_stm32f10x_hd.o
+    0x08000130   0x00000000   Code   RO         2597  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000130   0x00000004   Code   RO         2864    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x08000134   0x00000004   Code   RO         2867    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000138   0x00000000   Code   RO         2869    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000138   0x00000000   Code   RO         2871    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000138   0x00000008   Code   RO         2872    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000140   0x00000000   Code   RO         2874    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000140   0x00000000   Code   RO         2876    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000140   0x00000004   Code   RO         2865    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000144   0x00000030   Code   RO         2593    .text               startup_stm32f10x_hd.o
+    0x08000174   0x00000024   Code   RO         2600    .text               mc_w.l(memcpya.o)
+    0x08000198   0x00000024   Code   RO         2893    .text               mc_w.l(init.o)
     0x080001bc   0x00000004   Code   RO            1    i.BusFault_Handler  stm32f10x_it.o
     0x080001c0   0x0000002c   Code   RO          306    i.CmdError          sdcard.o
     0x080001ec   0x00000130   Code   RO          307    i.CmdResp1Error     sdcard.o
@@ -1620,14 +1620,14 @@ Memory Map of the image
     0x08000438   0x0000004c   Code   RO          311    i.CmdResp7Error     sdcard.o
     0x08000484   0x00000084   Code   RO            2    i.DMA1_Channel2_IRQHandler  stm32f10x_it.o
     0x08000508   0x00000010   Code   RO            3    i.DMA1_Channel5_IRQHandler  stm32f10x_it.o
-    0x08000518   0x0000001c   Code   RO         1900    i.DMA_ClearFlag     stm32f10x_dma.o
-    0x08000534   0x0000001c   Code   RO         1901    i.DMA_ClearITPendingBit  stm32f10x_dma.o
-    0x08000550   0x00000016   Code   RO         1902    i.DMA_Cmd           stm32f10x_dma.o
+    0x08000518   0x0000001c   Code   RO         1931    i.DMA_ClearFlag     stm32f10x_dma.o
+    0x08000534   0x0000001c   Code   RO         1932    i.DMA_ClearITPendingBit  stm32f10x_dma.o
+    0x08000550   0x00000016   Code   RO         1933    i.DMA_Cmd           stm32f10x_dma.o
     0x08000566   0x00000002   PAD
-    0x08000568   0x0000014c   Code   RO         1903    i.DMA_DeInit        stm32f10x_dma.o
-    0x080006b4   0x0000002c   Code   RO         1905    i.DMA_GetFlagStatus  stm32f10x_dma.o
-    0x080006e0   0x00000012   Code   RO         1907    i.DMA_ITConfig      stm32f10x_dma.o
-    0x080006f2   0x0000003c   Code   RO         1908    i.DMA_Init          stm32f10x_dma.o
+    0x08000568   0x0000014c   Code   RO         1934    i.DMA_DeInit        stm32f10x_dma.o
+    0x080006b4   0x0000002c   Code   RO         1936    i.DMA_GetFlagStatus  stm32f10x_dma.o
+    0x080006e0   0x00000012   Code   RO         1938    i.DMA_ITConfig      stm32f10x_dma.o
+    0x080006f2   0x0000003c   Code   RO         1939    i.DMA_Init          stm32f10x_dma.o
     0x0800072e   0x00000002   PAD
     0x08000730   0x00000064   Code   RO          312    i.DMA_RxConfiguration  sdcard.o
     0x08000794   0x00000064   Code   RO          313    i.DMA_TxConfiguration  sdcard.o
@@ -1637,15 +1637,15 @@ Memory Map of the image
     0x08000a58   0x000000b8   Code   RO          783    i.DisplayPic        display.o
     0x08000b10   0x00000038   Code   RO          164    i.EnterO0O          main.o
     0x08000b48   0x0000010c   Code   RO          165    i.FSMC_Config       main.o
-    0x08000c54   0x00000034   Code   RO         1428    i.FSMC_NORSRAMCmd   stm32f10x_fsmc.o
-    0x08000c88   0x000000dc   Code   RO         1430    i.FSMC_NORSRAMInit  stm32f10x_fsmc.o
+    0x08000c54   0x00000034   Code   RO         1459    i.FSMC_NORSRAMCmd   stm32f10x_fsmc.o
+    0x08000c88   0x000000dc   Code   RO         1461    i.FSMC_NORSRAMInit  stm32f10x_fsmc.o
     0x08000d64   0x00000194   Code   RO          314    i.FindSCR           sdcard.o
     0x08000ef8   0x00000016   Code   RO          166    i.GDelay            main.o
     0x08000f0e   0x00000002   PAD
     0x08000f10   0x000000a8   Code   RO          167    i.GET_Address       main.o
     0x08000fb8   0x000000ac   Code   RO          168    i.GPIO_Configuration  main.o
     0x08001064   0x00000040   Code   RO          315    i.GPIO_Configuration  sdcard.o
-    0x080010a4   0x00000112   Code   RO         1060    i.GPIO_Init         stm32f10x_gpio.o
+    0x080010a4   0x00000112   Code   RO         1091    i.GPIO_Init         stm32f10x_gpio.o
     0x080011b6   0x00000004   Code   RO            5    i.HardFault_Handler  stm32f10x_it.o
     0x080011ba   0x00000002   PAD
     0x080011bc   0x0000009c   Code   RO          169    i.InitDMA           main.o
@@ -1656,38 +1656,38 @@ Memory Map of the image
     0x080014f0   0x00000004   Code   RO            6    i.MemManage_Handler  stm32f10x_it.o
     0x080014f4   0x00000002   Code   RO            7    i.NMI_Handler       stm32f10x_it.o
     0x080014f6   0x00000046   Code   RO          173    i.NVIC_Configuration  main.o
-    0x0800153c   0x00000074   Code   RO         1174    i.NVIC_Init         misc.o
-    0x080015b0   0x00000014   Code   RO         1175    i.NVIC_PriorityGroupConfig  misc.o
+    0x0800153c   0x00000074   Code   RO         1205    i.NVIC_Init         misc.o
+    0x080015b0   0x00000014   Code   RO         1206    i.NVIC_PriorityGroupConfig  misc.o
     0x080015c4   0x00000002   Code   RO            8    i.PendSV_Handler    stm32f10x_it.o
     0x080015c6   0x00000002   PAD
     0x080015c8   0x00000044   Code   RO          174    i.PostMsg           main.o
     0x0800160c   0x000001f8   Code   RO            9    i.ProcessData       stm32f10x_it.o
-    0x08001804   0x00000020   Code   RO          840    i.RCC_AHBPeriphClockCmd  stm32f10x_rcc.o
-    0x08001824   0x00000020   Code   RO          841    i.RCC_APB1PeriphClockCmd  stm32f10x_rcc.o
-    0x08001844   0x00000020   Code   RO          843    i.RCC_APB2PeriphClockCmd  stm32f10x_rcc.o
+    0x08001804   0x00000020   Code   RO          871    i.RCC_AHBPeriphClockCmd  stm32f10x_rcc.o
+    0x08001824   0x00000020   Code   RO          872    i.RCC_APB1PeriphClockCmd  stm32f10x_rcc.o
+    0x08001844   0x00000020   Code   RO          874    i.RCC_APB2PeriphClockCmd  stm32f10x_rcc.o
     0x08001864   0x00000008   Code   RO          175    i.RCC_Configuration  main.o
-    0x0800186c   0x000000dc   Code   RO          851    i.RCC_GetClocksFreq  stm32f10x_rcc.o
+    0x0800186c   0x000000dc   Code   RO          882    i.RCC_GetClocksFreq  stm32f10x_rcc.o
     0x08001948   0x000004a4   Code   RO          176    i.ReadAndDispatch   main.o
     0x08001dec   0x0000009c   Code   RO          784    i.ResetFIFO         display.o
     0x08001e88   0x00000130   Code   RO          317    i.SDEnWideBus       sdcard.o
-    0x08001fb8   0x0000000c   Code   RO         1712    i.SDIO_ClearFlag    stm32f10x_sdio.o
-    0x08001fc4   0x0000000c   Code   RO         1713    i.SDIO_ClearITPendingBit  stm32f10x_sdio.o
-    0x08001fd0   0x0000000c   Code   RO         1714    i.SDIO_ClockCmd     stm32f10x_sdio.o
-    0x08001fdc   0x0000000c   Code   RO         1717    i.SDIO_DMACmd       stm32f10x_sdio.o
-    0x08001fe8   0x00000030   Code   RO         1718    i.SDIO_DataConfig   stm32f10x_sdio.o
-    0x08002018   0x00000024   Code   RO         1720    i.SDIO_DeInit       stm32f10x_sdio.o
-    0x0800203c   0x0000000c   Code   RO         1721    i.SDIO_GetCommandResponse  stm32f10x_sdio.o
-    0x08002048   0x00000018   Code   RO         1724    i.SDIO_GetFlagStatus  stm32f10x_sdio.o
-    0x08002060   0x00000018   Code   RO         1725    i.SDIO_GetITStatus  stm32f10x_sdio.o
-    0x08002078   0x00000010   Code   RO         1726    i.SDIO_GetPowerState  stm32f10x_sdio.o
-    0x08002088   0x00000018   Code   RO         1727    i.SDIO_GetResponse  stm32f10x_sdio.o
+    0x08001fb8   0x0000000c   Code   RO         1743    i.SDIO_ClearFlag    stm32f10x_sdio.o
+    0x08001fc4   0x0000000c   Code   RO         1744    i.SDIO_ClearITPendingBit  stm32f10x_sdio.o
+    0x08001fd0   0x0000000c   Code   RO         1745    i.SDIO_ClockCmd     stm32f10x_sdio.o
+    0x08001fdc   0x0000000c   Code   RO         1748    i.SDIO_DMACmd       stm32f10x_sdio.o
+    0x08001fe8   0x00000030   Code   RO         1749    i.SDIO_DataConfig   stm32f10x_sdio.o
+    0x08002018   0x00000024   Code   RO         1751    i.SDIO_DeInit       stm32f10x_sdio.o
+    0x0800203c   0x0000000c   Code   RO         1752    i.SDIO_GetCommandResponse  stm32f10x_sdio.o
+    0x08002048   0x00000018   Code   RO         1755    i.SDIO_GetFlagStatus  stm32f10x_sdio.o
+    0x08002060   0x00000018   Code   RO         1756    i.SDIO_GetITStatus  stm32f10x_sdio.o
+    0x08002078   0x00000010   Code   RO         1757    i.SDIO_GetPowerState  stm32f10x_sdio.o
+    0x08002088   0x00000018   Code   RO         1758    i.SDIO_GetResponse  stm32f10x_sdio.o
     0x080020a0   0x00000008   Code   RO           10    i.SDIO_IRQHandler   stm32f10x_it.o
-    0x080020a8   0x00000020   Code   RO         1728    i.SDIO_ITConfig     stm32f10x_sdio.o
-    0x080020c8   0x00000030   Code   RO         1729    i.SDIO_Init         stm32f10x_sdio.o
-    0x080020f8   0x0000000c   Code   RO         1730    i.SDIO_ReadData     stm32f10x_sdio.o
-    0x08002104   0x0000002c   Code   RO         1732    i.SDIO_SendCommand  stm32f10x_sdio.o
-    0x08002130   0x0000001c   Code   RO         1734    i.SDIO_SetPowerState  stm32f10x_sdio.o
-    0x0800214c   0x0000000c   Code   RO         1740    i.SDIO_WriteData    stm32f10x_sdio.o
+    0x080020a8   0x00000020   Code   RO         1759    i.SDIO_ITConfig     stm32f10x_sdio.o
+    0x080020c8   0x00000030   Code   RO         1760    i.SDIO_Init         stm32f10x_sdio.o
+    0x080020f8   0x0000000c   Code   RO         1761    i.SDIO_ReadData     stm32f10x_sdio.o
+    0x08002104   0x0000002c   Code   RO         1763    i.SDIO_SendCommand  stm32f10x_sdio.o
+    0x08002130   0x0000001c   Code   RO         1765    i.SDIO_SetPowerState  stm32f10x_sdio.o
+    0x0800214c   0x0000000c   Code   RO         1771    i.SDIO_WriteData    stm32f10x_sdio.o
     0x08002158   0x00000094   Code   RO          318    i.SD_EnableWideBusOperation  sdcard.o
     0x080021ec   0x000002f8   Code   RO          320    i.SD_GetCardInfo    sdcard.o
     0x080024e4   0x0000005c   Code   RO          322    i.SD_Init           sdcard.o
@@ -1702,40 +1702,40 @@ Memory Map of the image
     0x08003034   0x00000368   Code   RO          335    i.SD_WriteBlock     sdcard.o
     0x0800339c   0x0000041c   Code   RO          336    i.SD_WriteMultiBlocks  sdcard.o
     0x080037b8   0x000000bc   Code   RO           11    i.SPI1_IRQHandler   stm32f10x_it.o
-    0x08003874   0x00000018   Code   RO         1275    i.SPI_Cmd           stm32f10x_spi.o
-    0x0800388c   0x00000014   Code   RO         1280    i.SPI_I2S_ClearITPendingBit  stm32f10x_spi.o
-    0x080038a0   0x00000012   Code   RO         1281    i.SPI_I2S_DMACmd    stm32f10x_spi.o
-    0x080038b2   0x00000012   Code   RO         1283    i.SPI_I2S_GetFlagStatus  stm32f10x_spi.o
-    0x080038c4   0x00000006   Code   RO         1286    i.SPI_I2S_ReceiveData  stm32f10x_spi.o
-    0x080038ca   0x0000003c   Code   RO         1288    i.SPI_Init          stm32f10x_spi.o
+    0x08003874   0x00000018   Code   RO         1306    i.SPI_Cmd           stm32f10x_spi.o
+    0x0800388c   0x00000014   Code   RO         1311    i.SPI_I2S_ClearITPendingBit  stm32f10x_spi.o
+    0x080038a0   0x00000012   Code   RO         1312    i.SPI_I2S_DMACmd    stm32f10x_spi.o
+    0x080038b2   0x00000012   Code   RO         1314    i.SPI_I2S_GetFlagStatus  stm32f10x_spi.o
+    0x080038c4   0x00000006   Code   RO         1317    i.SPI_I2S_ReceiveData  stm32f10x_spi.o
+    0x080038ca   0x0000003c   Code   RO         1319    i.SPI_Init          stm32f10x_spi.o
     0x08003906   0x00000002   Code   RO           12    i.SVC_Handler       stm32f10x_it.o
-    0x08003908   0x00000008   Code   RO         2520    i.SetSysClock       system_stm32f10x.o
-    0x08003910   0x000000e4   Code   RO         2521    i.SetSysClockTo72   system_stm32f10x.o
+    0x08003908   0x00000008   Code   RO         2551    i.SetSysClock       system_stm32f10x.o
+    0x08003910   0x000000e4   Code   RO         2552    i.SetSysClockTo72   system_stm32f10x.o
     0x080039f4   0x00000002   Code   RO          177    i.ShowErrMsg        main.o
     0x080039f6   0x00000002   Code   RO           13    i.SysTick_Handler   stm32f10x_it.o
-    0x080039f8   0x00000054   Code   RO         2522    i.SystemInit        system_stm32f10x.o
+    0x080039f8   0x00000054   Code   RO         2553    i.SystemInit        system_stm32f10x.o
     0x08003a4c   0x00000020   Code   RO           14    i.TIM4_IRQHandler   stm32f10x_it.o
-    0x08003a6c   0x00000018   Code   RO         1973    i.TIM_ARRPreloadConfig  stm32f10x_tim.o
-    0x08003a84   0x00000006   Code   RO         1980    i.TIM_ClearITPendingBit  stm32f10x_tim.o
-    0x08003a8a   0x00000018   Code   RO         1985    i.TIM_Cmd           stm32f10x_tim.o
-    0x08003aa2   0x00000006   Code   RO         2004    i.TIM_GetCounter    stm32f10x_tim.o
-    0x08003aa8   0x00000006   Code   RO         2034    i.TIM_PrescalerConfig  stm32f10x_tim.o
+    0x08003a6c   0x00000018   Code   RO         2004    i.TIM_ARRPreloadConfig  stm32f10x_tim.o
+    0x08003a84   0x00000006   Code   RO         2011    i.TIM_ClearITPendingBit  stm32f10x_tim.o
+    0x08003a8a   0x00000018   Code   RO         2016    i.TIM_Cmd           stm32f10x_tim.o
+    0x08003aa2   0x00000006   Code   RO         2035    i.TIM_GetCounter    stm32f10x_tim.o
+    0x08003aa8   0x00000006   Code   RO         2065    i.TIM_PrescalerConfig  stm32f10x_tim.o
     0x08003aae   0x00000002   PAD
-    0x08003ab0   0x0000003c   Code   RO         2056    i.TIM_TimeBaseInit  stm32f10x_tim.o
+    0x08003ab0   0x0000003c   Code   RO         2087    i.TIM_TimeBaseInit  stm32f10x_tim.o
     0x08003aec   0x00000048   Code   RO           15    i.USART1_IRQHandler  stm32f10x_it.o
-    0x08003b34   0x0000001e   Code   RO         1541    i.USART_ClearITPendingBit  stm32f10x_usart.o
-    0x08003b52   0x00000018   Code   RO         1544    i.USART_Cmd         stm32f10x_usart.o
-    0x08003b6a   0x0000001a   Code   RO         1547    i.USART_GetFlagStatus  stm32f10x_usart.o
-    0x08003b84   0x000000a0   Code   RO         1551    i.USART_Init        stm32f10x_usart.o
-    0x08003c24   0x0000000a   Code   RO         1556    i.USART_ReceiveData  stm32f10x_usart.o
-    0x08003c2e   0x00000008   Code   RO         1559    i.USART_SendData    stm32f10x_usart.o
+    0x08003b34   0x0000001e   Code   RO         1572    i.USART_ClearITPendingBit  stm32f10x_usart.o
+    0x08003b52   0x00000018   Code   RO         1575    i.USART_Cmd         stm32f10x_usart.o
+    0x08003b6a   0x0000001a   Code   RO         1578    i.USART_GetFlagStatus  stm32f10x_usart.o
+    0x08003b84   0x000000a0   Code   RO         1582    i.USART_Init        stm32f10x_usart.o
+    0x08003c24   0x0000000a   Code   RO         1587    i.USART_ReceiveData  stm32f10x_usart.o
+    0x08003c2e   0x00000008   Code   RO         1590    i.USART_SendData    stm32f10x_usart.o
     0x08003c36   0x00000004   Code   RO           16    i.UsageFault_Handler  stm32f10x_it.o
     0x08003c3a   0x00000002   PAD
-    0x08003c3c   0x00000010   Code   RO         2574    i.__0printf$bare    mc_w.l(printfb.o)
-    0x08003c4c   0x0000000e   Code   RO         2874    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08003c5a   0x00000002   Code   RO         2875    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08003c5c   0x0000000e   Code   RO         2876    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x08003c6a   0x00000022   Code   RO         2581    i._printf_core      mc_w.l(printfb.o)
+    0x08003c3c   0x00000010   Code   RO         2605    i.__0printf$bare    mc_w.l(printfb.o)
+    0x08003c4c   0x0000000e   Code   RO         2905    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08003c5a   0x00000002   Code   RO         2906    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08003c5c   0x0000000e   Code   RO         2907    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08003c6a   0x00000022   Code   RO         2612    i._printf_core      mc_w.l(printfb.o)
     0x08003c8c   0x000002f4   Code   RO          550    i.auto_mount        ff.o
     0x08003f80   0x00000070   Code   RO          551    i.check_fs          ff.o
     0x08003ff0   0x00000014   Code   RO          552    i.chk_chr           ff.o
@@ -1777,7 +1777,7 @@ Memory Map of the image
     0x080056ba   0x00000002   PAD
     0x080056bc   0x0000009c   Code   RO          338    i.wait_ready        sdcard.o
     0x08005758   0x00001a00   Data   RO          775    .constdata          dotdata.o
-    0x08007158   0x00000020   Data   RO         2872    Region$$Table       anon$$obj.o
+    0x08007158   0x00000020   Data   RO         2903    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x0000d458, Max: 0x00010000, ABSOLUTE)
@@ -1789,12 +1789,12 @@ Memory Map of the image
     0x20000010   0x000000ac   Data   RW          183    .data               main.o
     0x200000bc   0x00000028   Data   RW          340    .data               sdcard.o
     0x200000e4   0x00000006   Data   RW          590    .data               ff.o
-    0x200000ea   0x00000014   Data   RW          871    .data               stm32f10x_rcc.o
+    0x200000ea   0x00000014   Data   RW          902    .data               stm32f10x_rcc.o
     0x200000fe   0x00000002   PAD
     0x20000100   0x0000c2f0   Zero   RW          182    .bss                main.o
     0x2000c3f0   0x00000064   Zero   RW          339    .bss                sdcard.o
     0x2000c454   0x00000004   PAD
-    0x2000c458   0x00001000   Zero   RW         2559    STACK               startup_stm32f10x_hd.o
+    0x2000c458   0x00001000   Zero   RW         2590    STACK               startup_stm32f10x_hd.o
 
 
 
