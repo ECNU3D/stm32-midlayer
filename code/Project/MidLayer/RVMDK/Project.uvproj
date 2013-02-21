@@ -350,7 +350,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\;..\..\..\Libraries\CMSIS\Core\CM3;..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\..\Utilities\STM32_EVAL;..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL;..\..\..\..\..\..\JJ版</IncludePath>
+              <IncludePath>..\;..\..\..\Libraries\CMSIS\Core\CM3;..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\..\Utilities\STM32_EVAL;..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -417,11 +417,6 @@
               <FilePath>..\ff.c</FilePath>
             </File>
             <File>
-              <FileName>led_485.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\led_485.c</FilePath>
-            </File>
-            <File>
               <FileName>dotdata.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\dotdata.c</FilePath>
@@ -430,6 +425,11 @@
               <FileName>display.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\display.c</FilePath>
+            </File>
+            <File>
+              <FileName>led_485.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\led_485.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -939,11 +939,6 @@
               <FilePath>..\ff.c</FilePath>
             </File>
             <File>
-              <FileName>led_485.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\led_485.c</FilePath>
-            </File>
-            <File>
               <FileName>dotdata.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\dotdata.c</FilePath>
@@ -952,6 +947,11 @@
               <FileName>display.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\display.c</FilePath>
+            </File>
+            <File>
+              <FileName>led_485.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\led_485.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1461,11 +1461,6 @@
               <FilePath>..\ff.c</FilePath>
             </File>
             <File>
-              <FileName>led_485.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\led_485.c</FilePath>
-            </File>
-            <File>
               <FileName>dotdata.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\dotdata.c</FilePath>
@@ -1474,6 +1469,11 @@
               <FileName>display.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\display.c</FilePath>
+            </File>
+            <File>
+              <FileName>led_485.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\led_485.c</FilePath>
             </File>
           </Files>
         </Group>

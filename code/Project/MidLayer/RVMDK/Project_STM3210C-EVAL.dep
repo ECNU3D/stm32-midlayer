@@ -18,7 +18,7 @@ I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x50BC8863
 I (..\sdcard.h)(0x50BC8865)
 I (..\led_485.h)(0x50BC886B)
 I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x50BC8863)
-F (..\main.c)(0x50D3B754)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\ -I..\..\..\Libraries\CMSIS\Core\CM3 -I..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\..\..\Utilities\STM32_EVAL -I..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\Obj\main.o" --omf_browse ".\Obj\main.crf" --depend ".\Obj\main.d")
+F (..\main.c)(0x51261F82)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\ -I..\..\..\Libraries\CMSIS\Core\CM3 -I..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\..\..\Utilities\STM32_EVAL -I..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\Obj\main.o" --omf_browse ".\Obj\main.crf" --depend ".\Obj\main.d")
 I (..\..\..\Libraries\CMSIS\Core\CM3\stm32f10x.h)(0x50BC8863)
 I (..\..\..\Libraries\CMSIS\Core\CM3\core_cm3.h)(0x50BC8863)
 I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
@@ -99,18 +99,7 @@ I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x50BC88
 I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x50BC8863)
 I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x50BC8863)
 I (..\display.h)(0x50BC8865)
-F (..\led_485.c)(0x50BC886B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\ -I..\..\..\Libraries\CMSIS\Core\CM3 -I..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\..\..\Utilities\STM32_EVAL -I..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\Obj\led_485.o" --omf_browse ".\Obj\led_485.crf" --depend ".\Obj\led_485.d")
-I (..\..\..\Libraries\CMSIS\Core\CM3\stm32f10x.h)(0x50BC8863)
-I (..\..\..\Libraries\CMSIS\Core\CM3\core_cm3.h)(0x50BC8863)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (..\..\..\Libraries\CMSIS\Core\CM3\system_stm32f10x.h)(0x50BC8863)
-I (..\stm32f10x_conf.h)(0x50BC8865)
-I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x50BC8863)
-I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x50BC8863)
-I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x50BC8863)
-I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x50BC8863)
-I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x50BC8863)
-I (..\led_485.h)(0x50BC886B)
+F (..\led_485.c)(0x50BC886B)()
 F (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x50BC8863)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\ -I..\..\..\Libraries\CMSIS\Core\CM3 -I..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\..\..\Utilities\STM32_EVAL -I..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_rcc.o" --omf_browse ".\Obj\stm32f10x_rcc.crf" --depend ".\Obj\stm32f10x_rcc.d")
 I (..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x50BC8863)
 I (..\..\..\Libraries\CMSIS\Core\CM3\stm32f10x.h)(0x50BC8863)
