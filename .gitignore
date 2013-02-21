@@ -1,8 +1,13 @@
+# Object files
 *.map
+*.lst
+*.axf
 *.htm
 *.tra
+*.crf
 *.o
 *.__i
 *.axf
 *.bak
 *.dep
+code\Project\MidLayer\RVMDK\Obj
