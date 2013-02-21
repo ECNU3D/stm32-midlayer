@@ -1,4 +1,3 @@
-#keil
 *.map
 *.htm
 *.tra
@@ -7,4 +6,3 @@
 *.axf
 *.bak
 *.dep
-git rm --cached ignore_file
