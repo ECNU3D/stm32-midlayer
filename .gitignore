@@ -4,4 +4,7 @@
 *.tra
 *.o
 *.__i
+*.axf
+*.bak
+*.dep
 git rm --cached ignore_file
